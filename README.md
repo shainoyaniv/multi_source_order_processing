@@ -36,8 +36,8 @@ Note: run it as a module (`python -m orders`), not as a script
 Example output:
 
 ```
-delivered: 4 {'A': 2, 'B': 2}
-rejected:  3
+delivered: 5 {'A': 2, 'B': 3}
+rejected:  4
 duplicates skipped: 1
 output:   output/target_orders.jsonl
 rejected: output/rejected_orders.jsonl
