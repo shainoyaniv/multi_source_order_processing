@@ -51,8 +51,15 @@ from the assignment, plus edge cases added on purpose:
 | Record | Source | Expected result |
 |---|---|---|
 | ORD-10001 | A | delivered (matches the target example in the assignment) |
-| ORD-20001 | B | delivered |
-| ... | | |
+| ORD-10002 | A | delivered (GB -> United Kingdom, GBP) |
+| ORD-10003 | A | rejected - unknown country FR |
+| ORD-10001 (again) | A | skipped as duplicate |
+| ORD-10004 | A | rejected - quantity 0 |
+| ORD-20001 | B | delivered (matches the B example in the assignment) |
+| ORD-20002 | B | delivered - 3 x 0.10 = 0.30 exactly, no float error |
+| ORD-20003 | B | delivered - no last name, lowercase country code "de" |
+| ORD-20004 | B | rejected - invalid timestamp |
+| non-JSON line | B | rejected - not a JSON object |
 
 ## Verify the output
 

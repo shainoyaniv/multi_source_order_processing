@@ -1,1 +1,5 @@
 {"orderId": "ORD-10001", "customerId": "CUST-501", "customerName": "John Smith", "country": "US", "orderDate": "2026-09-01T10:30:00", "productCode": "P100", "quantity": 2, "unitPrice": 125.50}
+{"orderId": "ORD-10002", "customerId": "CUST-502", "customerName": "Emma Brown", "country": "GB", "orderDate": "2026-09-01T12:05:00", "productCode": "P150", "quantity": 1, "unitPrice": 19.99}
+{"orderId": "ORD-10003", "customerId": "CUST-503", "customerName": "Pierre Dubois", "country": "FR", "orderDate": "2026-09-01T13:00:00", "productCode": "P100", "quantity": 1, "unitPrice": 125.50}
+{"orderId": "ORD-10001", "customerId": "CUST-501", "customerName": "John Smith", "country": "US", "orderDate": "2026-09-01T10:30:00", "productCode": "P100", "quantity": 2, "unitPrice": 125.50}
+{"orderId": "ORD-10004", "customerId": "CUST-504", "customerName": "Mike Lee", "country": "US", "orderDate": "2026-09-01T14:20:00", "productCode": "P300", "quantity": 0, "unitPrice": 10.00}

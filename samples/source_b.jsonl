@@ -1,1 +1,5 @@
 {"order_number": "ORD-20001", "customer": {"id": "CUST-842", "first_name": "Jane", "last_name": "Miller", "country_code": "DE"}, "created_at": "2026-09-01T11:15:00", "item": {"sku": "P200", "units": 3, "price": 80.00}}
+{"order_number": "ORD-20002", "customer": {"id": "CUST-843", "first_name": "Oliver", "last_name": "Taylor", "country_code": "GB"}, "created_at": "2026-09-01T15:40:00", "item": {"sku": "P210", "units": 3, "price": 0.10}}
+{"order_number": "ORD-20003", "customer": {"id": "CUST-844", "first_name": "Klaus", "country_code": "de"}, "created_at": "2026-09-01T16:00:00", "item": {"sku": "P200", "units": 1, "price": 80.00}}
+{"order_number": "ORD-20004", "customer": {"id": "CUST-845", "first_name": "Anna", "last_name": "Schmidt", "country_code": "DE"}, "created_at": "not-a-date", "item": {"sku": "P200", "units": 1, "price": 80.00}}
+this line is not json
